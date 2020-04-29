@@ -10,6 +10,6 @@ Feature: Hear Shout
 
   Scenario: Out of range shout is not heard
     Given Lucy is at 0, 0
-    And Sean is at 800, 800
+    And Sean is at 800, 600
     When Sean shouts
     Then Lucy should hear nothing
