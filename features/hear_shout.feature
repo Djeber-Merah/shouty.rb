@@ -5,7 +5,7 @@ Feature: Hear Shout
   Scenario: In range shout is heard
     Given Lucy is at 0, 0
     And Sean is at 0, 900
-    WhenWhen Sean shouts
+    When Sean shouts
     Then Lucy should hear Sean
 
   Scenario: Out of range shout is not heard

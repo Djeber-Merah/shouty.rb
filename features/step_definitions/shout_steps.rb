@@ -26,5 +26,5 @@ Then('Lucy should hear Sean') do
 end
 
 Then('Lucy should hear nothing') do
-  expect(0).to eq(0)
+  expect(1).to eq(0)
 end
